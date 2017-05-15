@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css?family=Jura|Khand');
+
+
+html {
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  margin:0;
+  padding:0;
+	perspective: 1px;
+	transform-style: preserve-3d;
+  height: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  font-family: Nunito;
+}
+
+h1 {
+   font-family: 'Jura', sans-serif;
+   font-size: 250%;
+
+}
+h2 {
+  font-family:'Jura', sans-serif;
+  color:white;
+
+}
+p {
+  font-family: 'Khand', sans-serif;
+  font-size: 140%;
+  line-height: 150%;
+  color: red;
+
+}
+
+
+.slide {
+  position: relative;
+  padding: 25vh 10%;
+  min-height: 100vh;
+  width: 100vw;
+  box-sizing: border-box;
+  box-shadow: 0 -1px 10px rgba(0, 0, 0, .7);
+	transform-style:left ;
+
+}
+
+
+}
+
+.slide: {
+  position: relative;
+  top: 0;
+  bottom: 0;
+  left:0;
+  right:0;
+}
+
+.title {
+  width: 50%;
+  padding: 5%;
+  border-radius: 5px;
+  background:
+rgba(240,230,220, .7);
+  box-shadow: 0 0 8px rgba(0, 0, 0, .7);
+}
+
+.slide:nth-child(3n1) .title  {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.slide:nth-child(2n1) .title  {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.slide, .slide:before {
+  background: 50% 50% / cover;
+}
+
+.header {
+  text-align: center;
+  font-size: 175%;
+  color: #fff;
+  text-shadow: 0 2px 2px #000;
+}
+
+#title {
+  background-image: url("https://raw.githubusercontent.com/shanellerparker/341-FinalWS/master/mtlogoteal.jpg");
+   background-attachment: fixed;
+}
+
+#beads {
+  background-image: url("https://raw.githubusercontent.com/shanellerparker/341-FinalWS/master/beads.JPG");
+  background-attachment: fixed;
+  overflow:hidden;
+}
+
+#beadwork {
+  background-image:
+url("https://raw.githubusercontent.com/shanellerparker/341-FinalWS/master/neonear.jpg");
+  background-attatchment:
+fixed;
+  overflow: hidden;
+}
+
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family:'Jura', sans-serif;
+    font-size: 17px;
+
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#aboutme {
+background-image: url("  https://raw.githubusercontent.com/shanellerparker/341-FinalWS/master/UNADJUSTEDNONRAW_thumb_bb6.jpg");
+  background-attachment: fixed;
+  overflow:hidden;}
+
+#contact {
+  background: grey;
+}
+
+.clear {
+    clear: both;
+    border-top: solid 1px;
+}
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
